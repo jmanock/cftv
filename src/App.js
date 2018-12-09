@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+import Test from './Components/app';
 
 class App extends Component {
   render() {
     return (
-      <h1>Welcome to C.F. TV</h1>
+      <Test />
     );
   }
 }
