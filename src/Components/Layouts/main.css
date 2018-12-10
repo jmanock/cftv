@@ -1,0 +1,67 @@
+.intro{
+  background:url('../../images/car.jpg') no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-color:#1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+  height:100vh;
+}
+.welcome{
+  margin-top:150px;
+}
+.cars{
+  background:url('../../images/classic.jpg') no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-color:#1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+}
+.triangle-up{
+  width:0;
+  height:0;
+  border-left:100px solid #82b1ff;
+  border-bottom:120px solid transparent;
+  border-top:240px solid transparent;
+}
+.agenda{
+  background:url('../../images/fastCar.jpg') no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-color:#1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+  height:50vh;
+}
+.bikes{
+  background:url('../../images/cycle.png') no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-color:#1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+  height:50vh;
+}
+.motovation{
+  background:url('../../images/motocycle.jpg') no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-color:#1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+}
