@@ -8,6 +8,7 @@ import Motovation from './Sections/Motovation';
 import Structure from './Sections/Structure';
 import Channel from './Sections/Channel';
 import Sponsorship from './Sections/Sponsorship';
+import Competitors from './Sections/Competitors';
 import './main.css';
 
 const Main = () =>{
@@ -22,6 +23,7 @@ const Main = () =>{
       <Structure />
       <Channel />
       <Sponsorship />
+      <Competitors />
     </Fragment>
   );
 };

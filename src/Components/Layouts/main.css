@@ -153,6 +153,24 @@
   background-color:#111;
 }
 .sponsorshipContent{
-  background-color:white;
   padding-left:20px;
+  padding-right:20px;
+  height:30vh;
+}
+.competitorsList{
+  height:30vh;
+}
+.competitorsTitle{
+  color:darkred;
+  background-color:black;
+  text-align:center;
+}
+.competitorsList > ul{
+  padding-top:50px;
+}
+.competitorsList > ul >li{
+  margin:20px 0;
+}
+.raceCar{
+  width:100%;
 }
