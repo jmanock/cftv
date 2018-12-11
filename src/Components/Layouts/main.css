@@ -64,4 +64,10 @@
   background-attachment:fixed;
   position:relative;
   overflow:hidden;
+  height:50vh;
+}
+.pepper{
+  width:50%;
+  margin-top:40px;
+  margin-left:70px;
 }

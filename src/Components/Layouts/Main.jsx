@@ -4,6 +4,7 @@ import Cars from './Sections/Cars';
 import Agenda from './Sections/Agenda';
 import Bikes from './Sections/Bikes';
 import Wwdaw from './Sections/Wwdaw';
+import Motovation from './Sections/Motovation';
 import './main.css';
 
 const Main = () =>{
@@ -14,6 +15,7 @@ const Main = () =>{
       <Agenda />
       <Bikes />
       <Wwdaw />
+      <Motovation />
     </Fragment>
   );
 };
