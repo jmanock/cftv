@@ -7,6 +7,7 @@ import Wwdaw from './Sections/Wwdaw';
 import Motovation from './Sections/Motovation';
 import Structure from './Sections/Structure';
 import Channel from './Sections/Channel';
+import Sponsorship from './Sections/Sponsorship';
 import './main.css';
 
 const Main = () =>{
@@ -20,6 +21,7 @@ const Main = () =>{
       <Motovation />
       <Structure />
       <Channel />
+      <Sponsorship />
     </Fragment>
   );
 };
