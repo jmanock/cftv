@@ -3,7 +3,7 @@ import {Grid,Paper} from '@material-ui/core';
 
 const Structure = () =>{
   return(
-    <div>
+    <section>
       <h1 className='title'>CFTV - The Structure</h1>
       <Grid container>
         <Grid xs={1}>
@@ -32,7 +32,7 @@ const Structure = () =>{
           </div>
         </Grid>
       </Grid>
-    </div>
+    </section>
   );
 };
 

@@ -98,7 +98,7 @@
 .def{
   background-color:#757575;
   height:50vh;
-  margin-top:-38px;
+  margin-top:-37px;
 }
 .def > ul {
   padding-top:40px;
@@ -110,4 +110,28 @@
   height:70px;
   padding-top:35px;
   margin-top:-20px;
+}
+.channel{
+  background-color:#333;
+  color:white;
+  height:50vh;
+}
+.channelHead{
+  color:darkred;
+  text-align:center;
+  background-color:#111;
+}
+.channelTitle{
+  margin-left:30px;
+  color:darkred;
+}
+.channelList{
+  list-style:none;
+}
+.channelList li::before{
+  content:'\2022';
+  color:darkred;
+  display:inline-block;
+  width:1em;
+  margin-left:-1em;
 }
