@@ -71,3 +71,43 @@
   margin-top:40px;
   margin-left:70px;
 }
+.cftvSign{
+  width:50px;
+  background-color:red;
+  writing-mode:vertical-lr;
+  text-orientation:mixed;
+  transform:rotate(180deg);
+  height:50vh;
+  margin-left:20px;
+}
+.cftvSign > h3{
+  color:white;
+  text-align:center;
+}
+.signs > h3{
+  background-color:brown;
+  color:white;
+  text-align:center;
+  width:230px;
+  height:50px;
+  margin-left:40px;
+}
+.si{
+  padding-top:20px;
+}
+.def{
+  background-color:#757575;
+  height:50vh;
+  margin-top:-38px;
+}
+.def > ul {
+  padding-top:40px;
+}
+.title{
+  text-align:center;
+  background-color:black;
+  color:red;
+  height:70px;
+  padding-top:35px;
+  margin-top:-20px;
+}

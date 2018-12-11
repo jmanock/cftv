@@ -5,6 +5,7 @@ import Agenda from './Sections/Agenda';
 import Bikes from './Sections/Bikes';
 import Wwdaw from './Sections/Wwdaw';
 import Motovation from './Sections/Motovation';
+import Structure from './Sections/Structure';
 import './main.css';
 
 const Main = () =>{
@@ -16,6 +17,7 @@ const Main = () =>{
       <Bikes />
       <Wwdaw />
       <Motovation />
+      <Structure />
     </Fragment>
   );
 };
