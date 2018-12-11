@@ -3,31 +3,34 @@ import {Grid,Paper} from '@material-ui/core';
 import greenPepper from '../../../images/greenPepppercopy.png';
 
 const Wwdaw = () =>{
-  const styles = {
-    height:'50vh',
-    backgroundColor:'#757575'
-  }
   return(
-    <section className='wwdaw' style={styles}>
+    <section className='wwdaw' style={{height:'50vh'}}>
+      <h1 className='wwdawTitle'>WHAT WE DO, AND WHY</h1>
       <Grid container>
         <Grid item xs>
-          <img src={greenPepper} alt='greenPepper' className='pepper'></img>
-          <ol className='list'>
-            <li>Provide local resorce information in a video magazine format</li>
-          </ol>
+          <Paper elevation={3} style={{height:'40vh', marginLeft:'20px'}}>
+            <img src={greenPepper} alt='greenPepper' className='pepper'></img>
+            <ol className='list'>
+              <li>Provide local resource information in a video magazine format</li>
+            </ol>
+          </Paper>
         </Grid>
         <Grid item xs>
-          <img src={greenPepper} alt='greenPepper' className='pepper'></img>
-          <ol className='list'>
-            <li>Provide a platform to advertise products, events, and locations to key known audience</li>
-          </ol>
+          <Paper elevation={3} style={{height:'40vh'}}>
+            <img src={greenPepper} alt='Green Pepper' className='pepper'></img>
+            <ol className='list'>
+              <li>Provide a platform to advertise products, events, and locations to key known audience</li>
+            </ol>
+          </Paper>
         </Grid>
         <Grid item xs>
-          <img src={greenPepper} alt='greenPepper' className='pepper'></img>
-          <ol className='list'>
-            <li>create partnerships with key compainies who have a shared ethos</li>
-            <li>In the Future, we will bring on more platforms and more outlets to bring the message to a greater audience</li>
-          </ol>
+          <Paper elevation={3} style={{height:'40vh', marginRight:'20px'}}>
+            <img src={greenPepper} alt='Green Pepper' className='pepper'></img>
+            <ol className='list'>
+              <li>Create partnerships with key compainies who have a shared ethos</li>
+              <li>In the future, we will bring on more platforms and more outlets to brin the message to a greater audience</li>
+            </ol>
+          </Paper>
         </Grid>
       </Grid>
     </section>

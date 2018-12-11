@@ -6,9 +6,9 @@ const Sponsorship = () =>{
     <section className='sponsorship'>
       <h1 className='sponsorshipTitle'>SPONSORSHIP PACKAGES - YOUR VALUE FOR ROLLING CONTENT CHANNEL</h1>
       <Grid container>
-        <Grid xs={2}></Grid>
-        <Grid xs={8}>
-          <Paper className='sponsorshipContent'>
+        <Grid xs={2} item></Grid>
+        <Grid xs={8} item>
+          <Paper className='sponsorshipContent' elevation={3}>
             <p>Rolling Content video stream - 12 hours a day. Content to be provided from current events and archive footage owned by CFTV.</p>
             <p>16 (30 second) commercials will be shown per hour. Each 'customer' advert will be shown once per hour 12 times a day.</p>
             <ul>
@@ -19,7 +19,7 @@ const Sponsorship = () =>{
             <p>To make an advert typically costs $250 - $400, depending on complexity and can be produced on a time and materials basis.</p>
           </Paper>
         </Grid>
-        <Grid xs={2}></Grid>
+        <Grid xs={2} item></Grid>
       </Grid>
     </section>
   );

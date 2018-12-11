@@ -14,7 +14,7 @@ const Cars = () =>{
       <div>
         <Grid container>
           <Grid item xs={6}>
-            <Paper style={style.paper}>
+            <Paper elevation={3} style={{height:'45vh', marginLeft:'20px'}}>
               <h3>OFFER VALUE CFTV</h3>
               <ul>
                 <li>Cycle Fever Tv</li>

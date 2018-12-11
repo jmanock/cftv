@@ -12,7 +12,7 @@ const Agenda = () =>{
       <Grid container>
         <Grid item xs></Grid>
         <Grid item xs>
-          <Paper style={styles}>
+          <Paper elevation={3} style={{height:'45vh', marginRight:'20px'}}>
             <h3>AGENDA</h3>
             <ol>
               <li>What We Do, and Why</li>

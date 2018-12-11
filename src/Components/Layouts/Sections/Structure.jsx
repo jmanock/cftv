@@ -1,35 +1,50 @@
 import React from 'react';
-import {Grid,Paper} from '@material-ui/core';
+import {Grid,Paper,Card,Typography,CardContent} from '@material-ui/core';
 
 const Structure = () =>{
+  const style ={
+    margin:'20px',
+    width:'300px',
+    textAlign:'center',
+  }
   return(
     <section>
-      <h1 className='title'>CFTV - The Structure</h1>
+      <h1 className='structureTitle'>CFTV - THE STRUCTURE</h1>
       <Grid container>
-        <Grid xs={1}>
+        <Grid item xs={1}>
           <div className='cftvSign'>
             <h3>CFTV</h3>
           </div>
         </Grid>
-        <Grid xs={5}>
-          <div className='signs'>
-            <h3 className='si'>Cycle Fever Tv</h3>
-            <h3 className='si'>Porsche Tv</h3>
-            <h3 className='si'>Small Town America Tv</h3>
-          </div>
+        <Grid item xs={5} style={{paddingLeft:'40px', paddingTop:'40px'}}>
+          <Card style={style}>
+            <CardContent>
+              <Typography component='h3'>Cycle Fever Tv</Typography>
+            </CardContent>
+          </Card>
+          <Card style={style}>
+            <CardContent>
+              <Typography component='h3'>Porsche Tv</Typography>
+            </CardContent>
+          </Card>
+          <Card style={style}>
+            <CardContent>
+              <Typography component='h3'>Small Town America Tv</Typography>
+            </CardContent>
+          </Card>
         </Grid>
-        <Grid xs={6}>
-          <div className='def'>
+        <Grid item xs={6}>
+          <Paper elevation={3} style={{height:'40vh', marginRight:'20px'}}>
             <ul>
-              <li>EVENTS - Rides, meetup, dealerships</li>
-              <li>LOCATIONS - Where to go what todo</li>
-              <li>INTERVIEWS - Who is who and what they do</li>
-              <li>TRIPS - Document day trips of interest</li>
-              <li>HOLIDAYS - Document holidays and things todo</li>
-              <li>ENDORSED PRODUCTS - Sponsor products</li>
-              <li>ROLLING MEDIA CHANNEL - Inculdes all the above</li>
+              <li>EVENTS ~ Rides, meetups, dealerships</li>
+              <li>LOCATIONS ~ Where to go what todo</li>
+              <li>INTERVIEWS ~ Who is who and what they do</li>
+              <li>TRIPS ~ Document day trips of interest</li>
+              <li>HOLIDAYS ~ Document holidays and things todo</li>
+              <li>ENDORSED PRODUCTS ~ Sponsor products</li>
+              <li>ROLLING MEDIA CHANNEL ~ Inculdes all the above</li>
             </ul>
-          </div>
+          </Paper>
         </Grid>
       </Grid>
     </section>

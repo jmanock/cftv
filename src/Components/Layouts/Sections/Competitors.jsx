@@ -11,7 +11,7 @@ const Competitors = () =>{
           <img src={RaceCar} alt='race car' className='raceCar'></img>
         </Grid>
         <Grid item xs={4}>
-          <Paper className='competitorsList'>
+          <Paper elevation={3}>
             <ul>
               <li>No one else is doing this today, with this focus and intensity.</li>
               <li>We have the advantage of cross platform fertilsation of ideas between channels</li>
