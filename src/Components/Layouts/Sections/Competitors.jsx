@@ -1,6 +1,5 @@
 import React from 'react';
-import {Grid,Paper,Card,CardContent,Typography} from '@material-ui/core';
-import RaceCar from '../../../images/raceCar.png';
+import {Grid,Paper,Card,CardContent} from '@material-ui/core';
 
 const Competitors = () =>{
   const style={

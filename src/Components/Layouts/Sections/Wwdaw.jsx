@@ -14,7 +14,7 @@ const Wwdaw = () =>{
           <Paper elevation={3}>
             <Card style={{height:'35vh'}}>
               <CardContent style={{marginTop:'20px'}}>
-                <img src={greenPepper} atl='Green Pepper' className='pepper'></img>
+                <img src={greenPepper} alt='Green Pepper' className='pepper'></img>
                 <ul>
                   <li>Provide local resource information in a video magazine format</li>
                 </ul>
