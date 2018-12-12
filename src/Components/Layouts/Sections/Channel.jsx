@@ -6,8 +6,8 @@ const Channel = () =>{
     margin:'20px'
   }
   return(
-    <section className='channel'>
-      <h2 className='channelHead'>CHANNEL SPONSORSHIP PACKAGES</h2>
+    <section className='channel' style={{height:'50vh'}}>
+      <h2 className='title'>CHANNEL SPONSORSHIP PACKAGES</h2>
       <Grid container>
         <Grid xs item style={style}>
           <Paper elevation={3}>

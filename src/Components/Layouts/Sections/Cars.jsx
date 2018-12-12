@@ -1,32 +1,30 @@
 import React from 'react';
-import {Grid,Paper} from '@material-ui/core';
+import {Grid,Paper,Card,Typography,CardContent} from '@material-ui/core';
 
 const Cars = () =>{
   const style = {
-    paper:{
-      backgroundColor:'#82b1ff',
-      height:'50vh',
-      marginTop:-20
-    }
+    margin:'20px'
   }
   return(
-    <section className='cars'>
-      <div>
-        <Grid container>
-          <Grid item xs={6}>
-            <Paper elevation={3} style={{height:'45vh', marginLeft:'20px'}}>
-              <h3>OFFER VALUE CFTV</h3>
-              <ul>
-                <li>Cycle Fever Tv</li>
-                <li>Cars Tv</li>
-                <li>Small Town America Tv</li>
-                <li>Rolling Media Channel</li>
-              </ul>
-            </Paper>
-          </Grid>
-          <div className='triangle-up'></div>
+    <section className='cars' style={{backgroundColor:'#333'}}>
+      <Grid container>
+        <Grid xs item style={style}>
+          <Paper elevation={3}>
+            <Card>
+              <CardContent>
+                <Typography component='h3' style={{color:'darkred', fontSize:'2em', marginLeft:'20px'}}>OFFERING VALUE CFTV</Typography>
+                <ul style={{color:'#333'}}>
+                  <li>Cycle Fever Tv</li>
+                  <li>Cars Tv</li>
+                  <li>Small Town America Tv</li>
+                  <li>Rolling Media Channel</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </Paper>
         </Grid>
-      </div>
+        <Grid xs item></Grid>
+      </Grid>
     </section>
   );
 };

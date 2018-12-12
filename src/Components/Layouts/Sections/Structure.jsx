@@ -8,8 +8,8 @@ const Structure = () =>{
     textAlign:'center',
   }
   return(
-    <section>
-      <h1 className='structureTitle'>CFTV - THE STRUCTURE</h1>
+    <section className='structure' style={{height:'50vh'}}>
+      <h1 className='title'>CFTV - THE STRUCTURE</h1>
       <Grid container>
         <Grid item xs={1}>
           <div className='cftvSign'>
@@ -34,16 +34,20 @@ const Structure = () =>{
           </Card>
         </Grid>
         <Grid item xs={6}>
-          <Paper elevation={3} style={{height:'40vh', marginRight:'20px'}}>
-            <ul>
-              <li>EVENTS ~ Rides, meetups, dealerships</li>
-              <li>LOCATIONS ~ Where to go what todo</li>
-              <li>INTERVIEWS ~ Who is who and what they do</li>
-              <li>TRIPS ~ Document day trips of interest</li>
-              <li>HOLIDAYS ~ Document holidays and things todo</li>
-              <li>ENDORSED PRODUCTS ~ Sponsor products</li>
-              <li>ROLLING MEDIA CHANNEL ~ Inculdes all the above</li>
-            </ul>
+          <Paper elevation={3} style={{marginTop:'50px'}}>
+            <Card>
+              <CardContent style={{height:'30vh'}}>
+                <ul>
+                  <li>EVENTS ~ Rides, meetups, dealerships</li>
+                  <li>LOCATIONS ~ Where to go what todo</li>
+                  <li>INTERVIEWS ~ Who is who and what they do</li>
+                  <li>TRIPS ~ Document day trips of interest</li>
+                  <li>HOLIDAYS ~ Document holidays and things todo</li>
+                  <li>ENDORSED PRODUCTS ~ Sponsor products</li>
+                  <li>ROLLING MEDIA CHANNEL ~ Includes all the above</li>
+                </ul>
+              </CardContent>
+            </Card>
           </Paper>
         </Grid>
       </Grid>

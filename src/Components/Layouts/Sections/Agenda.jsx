@@ -1,25 +1,41 @@
 import React from 'react';
-import {Grid,Paper} from '@material-ui/core';
+import {Grid,Paper,Card,Typography,CardContent} from '@material-ui/core';
 
 const Agenda = () =>{
-  const styles = {
-    height:'50vh',
-    marginTop:-18.5,
-    backgroundColor:'#616161',
+  const style = {
+    margin:'20px'
   }
   return(
     <section className='agenda'>
       <Grid container>
-        <Grid item xs></Grid>
-        <Grid item xs>
-          <Paper elevation={3} style={{height:'45vh', marginRight:'20px'}}>
-            <h3>AGENDA</h3>
-            <ol>
-              <li>What We Do, and Why</li>
-              <li>The Big Picture</li>
-              <li>The Journey There</li>
-              <li>How you can Join us</li>
-            </ol>
+        <Grid xs item style={style}>
+          <Paper elevation={3}>
+            <Card>
+              <CardContent>
+                <Typography component='h3' style={{color:'darkred', fontSize:'2em', marginLeft:'20px'}}>OFFERING VALUE CFTV</Typography>
+                <ul style={{color:'#333'}}>
+                  <li>Cycle Fever Tv</li>
+                  <li>Cars Tv</li>
+                  <li>Small Town America Tv</li>
+                  <li>Rolling Media Channel</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </Paper>
+        </Grid>
+        <Grid xs item style={style}>
+          <Paper elevation={3}>
+            <Card>
+              <CardContent>
+                <Typography component='h3' style={{color:'darkred', fontSize:'2em', marginLeft:'20px'}}>AGENDA</Typography>
+                <ul style={{color:'#333'}}>
+                  <li>What We Do, and Why</li>
+                  <li>The Big Picture</li>
+                  <li>The Journey There</li>
+                  <li>How you can join us</li>
+                </ul>
+              </CardContent>
+            </Card>
           </Paper>
         </Grid>
       </Grid>

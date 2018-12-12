@@ -9,164 +9,21 @@
   overflow:hidden;
   height:100vh;
 }
-.welcome{
+.introTitle{
   margin-top:150px;
-}
-.cars{
-  background:url('../../images/classic.jpg') no-repeat center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  background-color:#1c120c;
-  background-attachment:fixed;
-  position:relative;
-  overflow:hidden;
-}
-.triangle-u{
-  width:0;
-  height:0;
-  border-left:40px solid white;
-  border-bottom:100px solid transparent;
-  border-top:240px solid transparent;
-}
-.agenda{
-  background:url('../../images/fastCar.jpg') no-repeat center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  background-color:#1c120c;
-  background-attachment:fixed;
-  position:relative;
-  overflow:hidden;
-  height:50vh;
-}
-.bikes{
-  background:url('../../images/cycle.png') no-repeat center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  background-color:#1c120c;
-  background-attachment:fixed;
-  position:relative;
-  overflow:hidden;
-  height:50vh;
-}
-.motovation{
-  background:url('../../images/motocycle.jpg') no-repeat center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  background-color:#1c120c;
-  background-attachment:fixed;
-  position:relative;
-  overflow:hidden;
-  height:50vh;
-}
-.sponsorship{
-  height:50vh;
-  background:url('../../images/Ace.jpg') no-repeat center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  background-color:#1c120c;
-  background-attachment:fixed;
-  position:relative;
-  overflow:hidden;
 }
 .pepper{
   width:50%;
-  margin-top:40px;
   margin-left:70px;
+}
+.title{
+  text-align:center;
 }
 .cftvSign{
   width:50px;
-  background-color:darkred;
   writing-mode:vertical-lr;
   text-orientation:mixed;
   transform:rotate(180deg);
-  height:50vh;
+  margin-top:100px;
   margin-left:20px;
-}
-.cftvSign > h3{
-  color:white;
-  text-align:center;
-}
-.signs > h3{
-  background-color:brown;
-  color:white;
-  text-align:center;
-  width:230px;
-  height:50px;
-  margin-left:40px;
-}
-.structureTitle{
-  background-color:#222;
-  color:darkred;
-  text-align:center;
-}
-.channel{
-  background-color:#333;
-  color:white;
-  height:50vh;
-}
-.channelHead{
-  color:darkred;
-  text-align:center;
-  background-color:#111;
-}
-.channelTitle{
-  margin-left:30px;
-  color:darkred;
-}
-.channelList{
-  list-style:none;
-}
-.channelList li::before{
-  content:'\2022';
-  color:darkred;
-  display:inline-block;
-  width:1em;
-  margin-left:-1em;
-}
-.sponsorshipTitle{
-  text-align:center;
-  color:darkred;
-  background-color:#111;
-}
-.sponsorshipContent{
-  padding-left:20px;
-  padding-right:20px;
-  height:30vh;
-}
-.competitorsList{
-  height:30vh;
-}
-.competitorsTitle{
-  color:darkred;
-  background-color:black;
-  text-align:center;
-}
-.competitorsList > ul{
-  padding-top:50px;
-}
-.competitorsList > ul >li{
-  margin:20px 0;
-}
-.raceCar{
-  width:100%;
-}
-.wwdawTitle{
-  text-align:center;
-  color:darkred;
-  background-color:#222;
-}
-.motovationTitle{
-  background-color:#222;
-  color:darkred;
-  text-align:center;
 }
