@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid,Paper,Card,CardContent} from '@material-ui/core';
+import {Grid,Paper,Card,CardContent,Typography} from '@material-ui/core';
 import RaceCar from '../../../images/raceCar.png';
 
 const Competitors = () =>{
@@ -10,7 +10,8 @@ const Competitors = () =>{
     <section className='competitors' style={{height:'50vh'}}>
       <h2 className='title'>COMPETITORS?</h2>
       <Grid container>
-        <Grid item xs={8}></Grid>
+        <Grid item xs={8}>
+        </Grid>
         <Grid item xs={4}>
           <Paper elevation={3} style={style}>
             <Card style={{height:'30vh'}}>

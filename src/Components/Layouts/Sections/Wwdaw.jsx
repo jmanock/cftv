@@ -12,7 +12,7 @@ const Wwdaw = () =>{
       <Grid container>
         <Grid item xs style={style}>
           <Paper elevation={3}>
-            <Card style={{height:'40vh'}}>
+            <Card style={{height:'35vh'}}>
               <CardContent style={{marginTop:'20px'}}>
                 <img src={greenPepper} atl='Green Pepper' className='pepper'></img>
                 <ul>
@@ -24,7 +24,7 @@ const Wwdaw = () =>{
         </Grid>
         <Grid item xs style={style}>
           <Paper elevation={3}>
-            <Card style={{height:'40vh'}}>
+            <Card style={{height:'35vh'}}>
               <CardContent style={{marginTop:'20px'}}>
                 <img src={greenPepper} alt='Green Pepper' className='pepper'></img>
                 <ul>
@@ -36,7 +36,7 @@ const Wwdaw = () =>{
         </Grid>
         <Grid item xs style={style}>
           <Paper elevation={3}>
-            <Card style={{height:'40vh'}}>
+            <Card style={{height:'35vh'}}>
               <CardContent style={{marginTop:'20px'}}>
                 <img src={greenPepper} alt='Green Pepper' className='pepper'></img>
                 <ul>

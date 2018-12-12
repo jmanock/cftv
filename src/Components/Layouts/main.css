@@ -3,6 +3,7 @@
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
+  background-size:cover;
   background-color:#1c120c;
   background-attachment:fixed;
   position:relative;
@@ -26,4 +27,26 @@
   transform:rotate(180deg);
   margin-top:100px;
   margin-left:20px;
+}
+.motovation{
+  background:url('../../images/aceevent.jpg') no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-color:#1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+}
+.competitors{
+  background:url('../../images/Ace.jpg') no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-color:#1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
 }
