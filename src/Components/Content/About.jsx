@@ -9,7 +9,7 @@ const About = () =>{
     fontSize:'1.1em'
   }
   return(
-    <section className='About'>
+    <section className='About' id='About'>
       <Paper elevation={3} style={{backgroundColor:'#667467',margin:20}}>
         <h2 className='title'>About</h2>
         <Typography component='p' style={style}>

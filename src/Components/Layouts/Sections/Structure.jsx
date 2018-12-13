@@ -14,7 +14,7 @@ const Structure = () =>{
       <Grid container>
         <Grid item xs={1}>
           <div className='cftvSign'>
-            <h3>CFTV</h3>
+            <h3 style={{marginLeft:13}}>CFTV</h3>
           </div>
         </Grid>
         <Grid item xs={5} style={{paddingLeft:'40px', paddingTop:'40px'}}>

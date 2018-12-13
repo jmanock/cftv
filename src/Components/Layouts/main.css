@@ -1,5 +1,6 @@
 body{
-  background-color:#16174f;
+  /* background-color:#1e2846; */
+  background-color:#182238;
 }
 .agendaList{
   list-style:none;
@@ -57,7 +58,7 @@ body{
   text-orientation:mixed;
   transform:rotate(180deg);
   margin-top:60px;
-  margin-left:20px;
+  margin-left:40px;
   background-color:#963019;
   height:35vh;
   text-align:center;
@@ -96,4 +97,7 @@ body{
 }
 .icon{
   cursor:pointer;
+}
+.eventTitle{
+  font-size:.8em;
 }
