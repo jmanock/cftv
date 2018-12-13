@@ -37,7 +37,7 @@ const Structure = () =>{
         <Grid item xs={6}>
           <Paper elevation={3} style={{marginTop:'50px', marginRight:'20px'}}>
             <Card>
-              <CardContent style={{height:'30vh',backgroundColor:'#667467', fontSize:'1.2em',marginLeft:-25}}>
+              <CardContent style={{height:'35vh',backgroundColor:'#667467', fontSize:'1.2em',marginLeft:-25}}>
                 <ul className='structureList'>
                   <li><span className='defList'>EVENTS</span> ~ Rides, meetups, dealerships</li>
                   <li><span className='defList'>LOCATIONS</span> ~ Where to go what todo</li>
