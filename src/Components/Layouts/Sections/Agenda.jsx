@@ -10,10 +10,10 @@ const Agenda = () =>{
       <Grid container>
         <Grid xs item style={style}>
           <Paper elevation={3}>
-            <Card>
+            <Card style={{backgroundColor:'#667467'}}>
               <CardContent>
-                <Typography component='h3' style={{color:'darkred', fontSize:'2em', marginLeft:'20px'}}>OFFERING VALUE CFTV</Typography>
-                <ul style={{color:'#333'}}>
+                <Typography component='h3' style={{color:'#f6f1ed', fontSize:'2em', marginLeft:'20px'}}>OFFERING VALUE CFTV</Typography>
+                <ul className='agendaList' style={{fontSize:'1.2em'}}>
                   <li>Cycle Fever Tv</li>
                   <li>Cars Tv</li>
                   <li>Small Town America Tv</li>
@@ -25,10 +25,10 @@ const Agenda = () =>{
         </Grid>
         <Grid xs item style={style}>
           <Paper elevation={3}>
-            <Card>
+            <Card style={{backgroundColor:'#667467'}}>
               <CardContent>
-                <Typography component='h3' style={{color:'darkred', fontSize:'2em', marginLeft:'20px'}}>AGENDA</Typography>
-                <ul style={{color:'#333'}}>
+                <Typography component='h3' style={{color:'#f6f1ed', fontSize:'2em', marginLeft:'20px'}}>AGENDA</Typography>
+                <ul className='agendaList' style={{fontSize:'1.2em'}}>
                   <li>What We Do, and Why</li>
                   <li>The Big Picture</li>
                   <li>The Journey There</li>

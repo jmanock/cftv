@@ -20,7 +20,7 @@ const About = () =>{
         </Typography>
         <Grid container>
           <Grid item xs style={style}>
-            <Card>
+            <Card style={{backgroundColor:'#f6f1ed'}}>
               <CardMedia image={Hank} style={{height:200, width:'50%', marginLeft:130}}></CardMedia>
               <CardContent>
                 <Typography variant='h3' className='title'>Hank</Typography>

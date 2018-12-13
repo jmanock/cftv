@@ -1,3 +1,32 @@
+body{
+  background-color:#16174f;
+}
+.agendaList{
+  list-style:none;
+}
+.agendaList li:before{
+  content:'\2022';
+  color:#f6f1ed;
+  display:inline-block;
+  width:1em;
+  margin-left:-1em;
+}
+.agendaList > li{
+  margin:5px 0;
+}
+.structureList{
+  list-style:none;
+}
+.structureList li:before{
+  content:'\2022';
+  color:#963019;
+  display:inline-block;
+  width:1em;
+  margin-left:-1em;
+}
+.structureList > li{
+  margin:5px 0;
+}
 .intro{
   background:url('../../images/car.jpg') no-repeat center fixed;
   -webkit-background-size:cover;
@@ -14,19 +43,25 @@
   margin-top:150px;
 }
 .pepper{
-  width:50%;
+  width:40%;
   margin-left:70px;
 }
 .title{
   text-align:center;
+  color:#962019;
+  font-size:2em;
 }
 .cftvSign{
   width:50px;
   writing-mode:vertical-lr;
   text-orientation:mixed;
   transform:rotate(180deg);
-  margin-top:100px;
+  margin-top:60px;
   margin-left:20px;
+  background-color:#963019;
+  height:35vh;
+  text-align:center;
+  color:#f6f1ed;
 }
 .motovation{
   background:url('../../images/aceevent.jpg') no-repeat center fixed;
@@ -50,6 +85,9 @@
   position:relative;
   overflow:hidden;
 }
-.shawnImage{
-
+.defList{
+  color:#f6f1ed;
+}
+.dev{
+  color:#963019;
 }

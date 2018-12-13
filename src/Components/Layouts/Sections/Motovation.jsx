@@ -9,11 +9,12 @@ const Motovation = () =>{
     <section className='motovation' style={{height:'50vh'}}>
       <h2 className='title'>WHAT MOTIVATES US?</h2>
       <Grid container>
-        <Grid item xs={6} style={style}>
+        <Grid item xs={2}></Grid>
+        <Grid item xs={7} style={style}>
           <Paper elevation={3}>
-            <Card>
+            <Card style={{backgroundColor:'#667467'}}>
               <CardContent>
-                <ul>
+                <ul className='agendaList' style={{fontSize:'1.1em', marginLeft:-30}}>
                   <li>We have over 40 years of TV production and presenting experience</li>
                   <li>We want to do something different</li>
                   <li>We want to meet a need from the community</li>
