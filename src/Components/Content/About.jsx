@@ -5,23 +5,24 @@ import Shawn from '../../images/shawn1.jpg';
 
 const About = () =>{
   const style = {
-    margin:20
+    margin:20,
+    fontSize:'1.1em'
   }
   return(
     <section className='About'>
-      <Paper elevation={3} style={style}>
+      <Paper elevation={3} style={{backgroundColor:'#667467',margin:20}}>
         <h2 className='title'>About</h2>
         <Typography component='p' style={style}>
           CycleFeverTv is a motocycle travel show with cazy hosts who want you to come along for the ride while they have fun and a few laughs! Join the Adventure and Enjoy the Ride! Follow us on our motorcycle travel adventures.
         </Typography>
-        <h3 style={style}>Motorcycle Enthusiast</h3>
+        <h3 style={{textAlign:'center', color:'#f6f1ed'}}>Motorcycle Enthusiast</h3>
         <Typography component='p' style={style}>
           Motorcycles, cars, travel, live events, and live concerts! Episodes of Cycle Fever Tv live stream from the Ace every Thursday @ 7:30pm EST sharp! Our history: in 1999, two public school teachers set out to re-discover the American road. With their wives permission of course. Cycle Fever Tv takes a ride across the country from the unique view of a motorcycle. Join our host, Hank Knapp and friends as they travel all around the highways and backroads of The United States experiencing motorcycle culture.
         </Typography>
         <Grid container>
           <Grid item xs style={style}>
-            <Card style={{backgroundColor:'#f6f1ed'}}>
-              <CardMedia image={Hank} style={{height:200, width:'50%', marginLeft:130}}></CardMedia>
+            <Card style={{backgroundColor:'#f6f1ed',height:'650px'}}>
+              <CardMedia image={Hank} style={{height:200, width:'50%', marginLeft:130,marginTop:50}}></CardMedia>
               <CardContent>
                 <Typography variant='h3' className='title'>Hank</Typography>
                 <Typography component='p'>
@@ -34,9 +35,8 @@ const About = () =>{
             </Card>
           </Grid>
           <Grid item xs style={style}>
-            <Card>
-
-              <CardMedia style={{height:200, width:'50%', marginLeft:'130px'}} image={Shawn} title='Shawn'/>
+            <Card style={{backgroundColor:'#f6f1ed',height:'650px'}}>
+              <CardMedia style={{height:200, width:'50%', marginLeft:'130px',marginTop:50}} image={Shawn} title='Shawn'/>
               <CardContent>
                 <Typography className='title' variant='h3'>Shawn</Typography>
                 <Typography component='p'>

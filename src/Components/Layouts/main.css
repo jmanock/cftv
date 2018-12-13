@@ -91,3 +91,9 @@ body{
 .dev{
   color:#963019;
 }
+.rbc-off-range-bg{
+  background-color:#f6f1ed;
+}
+.icon{
+  cursor:pointer;
+}

@@ -39,7 +39,9 @@ let events = [
   {title:'Humble Society Meet', start:new Date(2018,11,26), end:new Date(2018,11,26), bikes:false, cars:false, time:'6pm'},
   {title:'Bike Night', start:new Date(2018,11,27), end:new Date(2018,11,27), bikes:true, cars:false, time:'7pm'},
   {title:'Downtown Truck Show', start:new Date(2018,11,28), end:new Date(2018,11,28), bikes:false, cars:true, time:'6pm'},
-  {title:'Blues & Bourbon with Miles Minor Band', start:new Date(2018,11,29), end:new Date(2018,11,29), bikes:false, cars:false, time:'8:30pm'}
+  {title:'Blues & Bourbon with Miles Minor Band', start:new Date(2018,11,29), end:new Date(2018,11,29), bikes:false, cars:false, time:'8:30pm'},
+  {title:'Merry Christmas', start:new Date(2018,11,25), end:new Date(2018,11,25), bikes:false, cars:false, holidays:true},
+  {title:'Happy New Years', start:new Date(2019,0,1), end:new Date(2019,0,1), bikes:false, cars:false,holidays:true}
 ];
 
 function Event({event}){
@@ -74,7 +76,10 @@ class CustomToolbar extends Component{
 
 const Calendar = props =>(
   <div>
-    <BigCalendar localizer={localizer} events={events} popup startAccessor='start' endAccessor='end' className={props.calendarIsOpen ? 'open' : ''} components={{event:Event, toolbar:CustomToolbar}} style={{height:'110vh',marginLeft:'40px',marginTop:'20px', marginRight:'30px'}} eventPropGetter={(event,start,end, isSelected) =>{let newStyle = {backgroundColor:'#e53935', color:'white'}; if(event.cars){newStyle.backgroundColor='#43a047'}if(event.bikes){newStyle.backgroundColor='#1e88e5'} return{className:'',style:newStyle}}}/>
+    <BigCalendar localizer={localizer} events={events} popup startAccessor='start' endAccessor='end' className={props.calendarIsOpen ? 'open' : ''} components={{event:Event, toolbar:CustomToolbar}} style={{height:'110vh',marginLeft:'40px',marginTop:'20px', marginRight:'30px',backgroundColor:'#667467'}} eventPropGetter={(event,start,end, isSelected) =>{let newStyle = {backgroundColor:'#e53935', color:'white'}
+       if(event.cars){newStyle.backgroundColor='#43a047'}
+       if(event.bikes){newStyle.backgroundColor='#1e88e5'}
+       if(event.holidays){newStyle.backgroundColor='#16174f'} return{className:'',style:newStyle}}}/>
   </div>
 )
 
