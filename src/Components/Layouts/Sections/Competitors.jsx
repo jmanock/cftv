@@ -6,14 +6,13 @@ const Competitors = () =>{
     margin:'20px',
   }
   return(
-    <section className='competitors' style={{height:'50vh'}}>
+    <section className='competitors' style={{height:'40vh'}}>
       <h2 className='title'>COMPETITORS?</h2>
       <Grid container>
-        <Grid item xs={8}>
-        </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={3}></Grid>
+        <Grid item xs={6}>
           <Paper elevation={3} style={style}>
-            <Card style={{height:'25vh',backgroundColor:'#667467'}}>
+            <Card style={{height:'20vh', backgroundColor:'#667467'}}>
               <CardContent>
                 <ul className='agendaList' style={{fontSize:'1.1em'}}>
                   <li>No one else is doing this today, with this focus and intensity.</li>
@@ -23,6 +22,7 @@ const Competitors = () =>{
             </Card>
           </Paper>
         </Grid>
+        <Grid item xs={3}></Grid>
       </Grid>
     </section>
   );
