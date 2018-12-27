@@ -9,6 +9,7 @@ import Sponsorship from './Sections/Sponsorship';
 import Competitors from './Sections/Competitors';
 import Calendar from '../Content/Calendar';
 import About from '../Content/About';
+import Youtube from './Sections/Youtube';
 import './main.css';
 
 const Main = () =>{
@@ -25,6 +26,7 @@ const Main = () =>{
       <h2 className='title'>Events</h2>
       <Calendar />
       <About />
+      <Youtube videoId='wp-R57ZaiXY'/>
     </Fragment>
   );
 };
